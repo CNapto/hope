@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Peers</title>
 </head>
 <body>
-    <h1>Hello world</h1>
+    <h1>PEERS</h1>
     <br>
-    <form>
-        <textarea id="incoming"></textarea>
-        <button type="submit">submit</button>
-      </form>
+    <input type="text" name="msg" id="msg">
+    <button>send</button>
       <pre id="outgoing"></pre>
       <script src="/socket.io/socket.io.js"></script>
+      <script src="js/jq.js"></script>
       <script src="js/bundle.js" type="module"></script> 
 </body>
 </html>

@@ -7,7 +7,11 @@ app.set("view engine","ejs");
 app.use(express.static("static"));
 
 app.get("/",(req,res)=>{
-    res.render("index");
+    res.render("peer");
+});
+
+app.get("/admin",(req,res)=>{
+    res.render("baseStation");
 });
 
 
@@ -16,8 +20,5 @@ let server = app.listen(3000,"0.0.0.0",()=>console.log("Listening...."));
 let io = socket(server);
 
 io.sockets.on("connection",(client)=>{
-    client.emit("base station",{message:"we are coming to save you"});
-    client.on("reply",(data)=>{
-        console.log(data);
-    });
+    console.log(client.id);
 }); 
