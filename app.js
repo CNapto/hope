@@ -21,4 +21,11 @@ let io = socket(server);
 
 io.sockets.on("connection",(client)=>{
     console.log(client.id);
+    client.on("base station",(data)=>{
+        io.sockets.emit("base station",data);
+    });
+
+    client.on("reply",(data)=>{
+        io.sockets.emit("reply",data);
+    });
 }); 
