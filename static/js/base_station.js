@@ -6,6 +6,11 @@ $("button").on("click",(e)=>{
 });
 
 
-socket.on("reply",(data)=>{
-  $("#locations").append("<p>"+data.message+"</p>");
+socket.on("location",(data)=>{
+  $("#locations").append("<p style='color:green'><strong>"+data.id+"</strong></p><p style='color:green'>"+data.message+"</p>");
+});
+
+
+socket.on("chat",(data)=>{
+  $("#chat").append("<p><strong>"+data.id+"</strong></p><p>"+data.message+"</p>");
 });

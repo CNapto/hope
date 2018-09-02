@@ -25,7 +25,11 @@ io.sockets.on("connection",(client)=>{
         io.sockets.emit("base station",data);
     });
 
-    client.on("reply",(data)=>{
-        io.sockets.emit("reply",data);
+    client.on("location",(data)=>{
+        io.sockets.emit("location",{message:data.message,id:client.id});
+    });
+
+    client.on("chat",(data)=>{
+        io.sockets.emit("chat",{message:data.message,id:client.id});
     });
 }); 
