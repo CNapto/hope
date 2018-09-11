@@ -5,7 +5,6 @@ $("button").on("click",(e)=>{
   socket.emit("base station",{message:$("#msg").val()});
 });
 
-
 socket.on("location",(data)=>{
   $("#locations").append("<p style='color:green'><strong>"+data.id+"</strong></p><p style='color:green'>"+data.message+"</p>");
 });

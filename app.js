@@ -14,6 +14,7 @@ app.get("/",(req,res)=>{
 app.get("/admin",(req,res)=>{
     res.render("baseStation");
 });
+
 app.post('/weather',(req,res)=>{
 
 weatherdata(req.body.lat,req.body.lon)
@@ -28,6 +29,12 @@ let io = socket(server);
 
 io.sockets.on("connection",(client)=>{
     console.log(client.id);
+
+    client.on('join',(data)=>{
+        console.log(data +" has joined");
+        io.sockets.emit('userjoinedthechat',data);
+    });
+    
     client.on("base station",(data)=>{
         io.sockets.emit("base station",data);
     });
@@ -36,7 +43,14 @@ io.sockets.on("connection",(client)=>{
         io.sockets.emit("location",{message:data.message,id:client.id});
     });
 
-    client.on("chat",(data)=>{
-        io.sockets.emit("chat",{message:data.message,id:client.id});
+    client.on("chat",(nickname,message)=>{
+        console.log(nickname+" "+message);
+         io.sockets.emit("chat",{"message":message,"senderNickname":nickname});
     });
+    
+    client.on('logout',(name)=>{
+        console.log(name);
+        client.broadcast.emit('logout',{"name":name});
+    });
+
 }); 
