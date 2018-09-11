@@ -1,7 +1,8 @@
 const express = require("express");
 const socket = require("socket.io");
 const app = express();
-
+const weatherdata=require('./helpers/weather');
+require('dotenv').config();
 
 app.set("view engine","ejs");
 app.use(express.static("static"));
@@ -12,6 +13,12 @@ app.get("/",(req,res)=>{
 
 app.get("/admin",(req,res)=>{
     res.render("baseStation");
+});
+app.post('/weather',(req,res)=>{
+
+weatherdata(req.body.lat,req.body.lon)
+.then(res.send)
+.catch(console.log);
 });
 
 

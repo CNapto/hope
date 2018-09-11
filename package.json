@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/angadsharma1016/call_for_code#readme",
   "dependencies": {
+    "dotenv": "^6.0.0",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
+    "request": "^2.88.0",
     "socket.io": "^2.1.1"
   }
 }
