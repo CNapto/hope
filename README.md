@@ -29,5 +29,5 @@
 <br/>
 <br/>
 
-[!Alt image](./static/cfc.jpg)
+![Alt image](./static/cfc.jpg)
 
