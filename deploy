@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd ~/call_for_code
 
 echo "stopping containers..."
