@@ -1,17 +1,15 @@
-    cd call_for_code
+cd ~/call_for_code
 
-    echo "pulling from master..."
+echo "stopping containers..."
 
-    git pull origin master
+docker-compose down
+    
+echo "pulling from master..."
 
-    echo "pulled successfully..."
+git pull git@github.com:angadsharma1016/call_for_code.git master
 
-    echo "stopping containers..."
+echo "pulled successfully..."
 
-    docker-compose down
+echo "rebuilding containers"
 
-    echo "starting containers"
-
-    docker-compose up --build -d
-
-    echo "containers started"
+docker-compose up --build -d && echo "containers started"
