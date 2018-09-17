@@ -25,3 +25,9 @@
 | 8008 | Sawtooth rest-api | - |
 | 8000 | blockchain client | - |
 | 4000 | chain validator | - |
+
+<br/>
+<br/>
+
+[!Alt image](./static/cfc.jpg)
+
