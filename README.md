@@ -33,4 +33,4 @@
 | 8008 | Sawtooth rest-api | - |
 | 8000 | blockchain client | - |
 | 4000 | chain validator | - |
-| 6666 | automated deployment | POST /webhook/github | 
+| 6666 | automated deployment node server | POST /webhook/github | 
