@@ -14,6 +14,7 @@ app.get("/webhook/github",(req,res)=>{
     let sender = req.body.sender, branch = req.body.ref;
 
     if(branch.indexOf("master")>-1 && sender.login === "angadsharma1016"){
+        console.log("Push event triggered")
         child_process.exec("cd ../ && ./deploy",(err,stdout,stderr)=>{
             if(err){
                 console.log(err);
