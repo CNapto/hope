@@ -19,6 +19,7 @@
  - [X] location sharing
  - [X] charity supply chain tracking using blockchain
  - [X] barter using blockchain
+ - [X] automatic deployment server
 
 <br/>
 <br/>
@@ -32,4 +33,4 @@
 | 8008 | Sawtooth rest-api | - |
 | 8000 | blockchain client | - |
 | 4000 | chain validator | - |
-
+| 6666 | automated deployment | POST /webhook/github | 
