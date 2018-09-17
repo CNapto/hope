@@ -24,7 +24,7 @@
 <br/>
 <br/>
 
-### Open ports and functionality
+### Open port list and functionality
 
 | PORT  |   FUNCTIONALITY | ROUTE |
 |---|---|---|
