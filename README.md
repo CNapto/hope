@@ -20,7 +20,6 @@
 
 | PORT  |   FUNCTIONALITY | ROUTE |
 |---|---|---|
-
 | 80 | Chatroom and location sharing | / |
 | 80 | Alert broadcasting and location handler | /admin |
 | 8008 | Sawtooth rest-api | - |
