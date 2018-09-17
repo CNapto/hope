@@ -4,8 +4,8 @@ services:
 
   chain-shell:
     build:
-      context: ./blockchain
-      dockerfile: ./blockchain/shell/Dockerfile
+      context: ./blockchain/shell
+      #dockerfile: Dockerfile
       args:
         - http_proxy
         - https_proxy
@@ -42,8 +42,8 @@ services:
 
   chain-tp:
     build:
-      context: ./blockchain
-      dockerfile: ./blockchain/processor/Dockerfile
+      context: ./blockchain/processor
+      #dockerfile: Dockerfile
       args:
         - http_proxy
         - https_proxy

@@ -32,7 +32,7 @@ RUN pip3 install \
 
 WORKDIR /project/sawtooth-tuna
 
-COPY client/package.json /project/sawtooth-tuna/client/
+COPY package.json /project/sawtooth-tuna/client/
 
 RUN cd client/ && npm install
 

@@ -6,7 +6,7 @@ Original source code can be found here: https://github.com/delventhalz/transfer-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sawtooth Tuna Chain</title>
+  <title>Chain</title>
   <link rel="icon" href="favicon.png" type="image/gif">
 
   <!-- require jquery and bootstrap scripts -->
@@ -54,8 +54,7 @@ Original source code can be found here: https://github.com/delventhalz/transfer-
 <body>
   
   <header>
-    <div id="left_header">Sawtooth Tuna Chain</div>
-    <i id="right_header">Example Blockchain Application for Introduction to Hyperledger Sawtooth LFS171x</i>
+    <div id="left_header">Barter</div>
   </header>
 
   <div id="body">
@@ -69,15 +68,15 @@ Original source code can be found here: https://github.com/delventhalz/transfer-
       </div>
 
       <div class="form-group">
-        <label>Create Tuna Record</label>
+        <label>Create a Record</label>
         <input id="createName" class="form-control" type="text" placeholder="Enter asset name...">
         <input id="createSubmit" type="button" value="Create" class="btn btn-primary">
       </div>
 
       <div class="form-group">
-        <label>Transfer Tuna</label>
+        <label>Transfer supplies</label>
         <select class="form-control" name="assetSelect">
-          <option value="none" selected>Select Tuna...</option>
+          <option value="none" selected>Select supply...</option>
         </select>
         <select class="form-control" name="transferSelect">
           <option value="none" selected>Select recipient...</option>
@@ -86,16 +85,16 @@ Original source code can be found here: https://github.com/delventhalz/transfer-
       </div>
 
       <div class="form-group">
-        <label>Accept Tuna</label>
+        <label>Accept supply</label>
         <div id="transferList"></div>
       </div>
     </div>
 
     <div id="data">
-      <label>Tuna List</label>
+      <label>record List</label>
       <table class="table table-hover">
         <tr>
-          <th>Tuna</th>
+          <th>record</th>
           <th>Holder</th>
         </tr>
         <tbody id="assetList"></tbody>
