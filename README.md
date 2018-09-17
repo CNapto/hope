@@ -3,6 +3,13 @@
 
 <br/>
 
+
+![Alt image](./static/cfc.jpg)
+
+<br/>
+<br/>
+
+
 ### An application to acheive the following:
 
 <br/>
@@ -25,9 +32,4 @@
 | 8008 | Sawtooth rest-api | - |
 | 8000 | blockchain client | - |
 | 4000 | chain validator | - |
-
-<br/>
-<br/>
-
-![Alt image](./static/cfc.jpg)
 
