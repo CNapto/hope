@@ -34,3 +34,11 @@
 | 8000 | blockchain client | - |
 | 4000 | chain validator | - |
 | 6666 | automated deployment node server | POST /webhook/github | 
+
+
+<br />
+
+### NOTE
+
+<br/>
+* Go to state.js line 21 and change url accroding to your URL

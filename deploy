@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/call_for_code
+cd ~/call_for_code/project
 
 echo "stopping containers..."
 
@@ -8,7 +8,7 @@ docker-compose down
     
 echo "pulling from master..."
 
-git pull git@github.com:angadsharma1016/call_for_code.git master
+git pull origin master
 
 echo "pulled successfully..."
 
