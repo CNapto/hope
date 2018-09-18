@@ -1,4 +1,4 @@
-## HOPE
+## H.O.P.E
 
 Help-Other-People-in-Emergency
 SOS tool for disaster relief
