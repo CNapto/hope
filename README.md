@@ -37,9 +37,17 @@
 
 
 <br />
+<br />
 
-### NOTE
+### How to run
 
-<br/>
-* Go to state.js line 21 and change url accroding to your URL
-* Go to bundle.js line 30014 and change url accroding to your URL
+<br />
+
+To run containers
+
+```bash
+$ git clone https://github.com/angadsharma1016/call_for_code.git
+$ cd call_for_code/project
+$ docker-compose up
+
+```
