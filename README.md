@@ -42,3 +42,4 @@
 
 <br/>
 * Go to state.js line 21 and change url accroding to your URL
+* Go to bundle.js line 30014 and change url accroding to your URL

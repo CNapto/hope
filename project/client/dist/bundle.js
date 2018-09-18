@@ -30011,7 +30011,7 @@ const secp256k1 = __webpack_require__(101)
 
 // Config variables
 const KEY_NAME = 'transfer-chain.keys'
-const API_URL = 'http://localhost:8000/api'
+const API_URL = 'http://206.189.141.177:8000/api'
 
 const FAMILY = 'transfer-chain'
 const VERSION = '0.0'
