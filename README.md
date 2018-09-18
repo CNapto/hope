@@ -1,5 +1,8 @@
 ## HOPE
+
+Help-Other-People-in-Emergency
 SOS tool for disaster relief
+
 ---
 
 <br/>
