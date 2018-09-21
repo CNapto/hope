@@ -27,10 +27,10 @@ SOS tool for disaster relief
 <br/>
 <br/>
 
-![Alt image](./static/1.png)
-![Alt image](./static/2.png)
-![Alt image](./static/3.png)
-![Alt image](./static/4.png)
+![Alt image](./static/1.png =250x250) 
+![Alt image](./static/2.png =250x250)
+![Alt image](./static/3.png =250x250)
+![Alt image](./static/4.png =250x250)
 
 
 <br />
