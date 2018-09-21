@@ -27,6 +27,16 @@ SOS tool for disaster relief
 <br/>
 <br/>
 
+![Alt image](./static/1.png)
+![Alt image](./static/2.png)
+![Alt image](./static/3.png)
+![Alt image](./static/4.png)
+
+
+<br />
+<br />
+
+
 ### Open port list and functionality
 
 | PORT  |   FUNCTIONALITY | ROUTE |
@@ -53,3 +63,4 @@ $ cd hope/project
 $ docker-compose up
 
 ```
+
