@@ -1,4 +1,8 @@
-## IBM'S CALL FOR CODE
+## H.O.P.E
+
+Help-Other-People-in-Emergency
+SOS tool for disaster relief
+
 ---
 
 <br/>
@@ -19,7 +23,6 @@
  - [X] location sharing
  - [X] charity supply chain tracking using blockchain
  - [X] barter using blockchain
- - [X] automatic deployment server
 
 <br/>
 <br/>
@@ -33,7 +36,6 @@
 | 8008 | Sawtooth rest-api | - |
 | 8000 | blockchain client | - |
 | 4000 | chain validator | - |
-| 6666 | automated deployment node server | POST /webhook/github | 
 
 
 <br />
@@ -46,8 +48,8 @@
 To run containers
 
 ```bash
-$ git clone https://github.com/angadsharma1016/call_for_code.git
-$ cd call_for_code/project
+$ git clone https://github.com/angadsharma1016/hope.git
+$ cd hope/project
 $ docker-compose up
 
 ```
