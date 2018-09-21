@@ -24,14 +24,6 @@ SOS tool for disaster relief
  - [X] charity supply chain tracking using blockchain
  - [X] barter using blockchain
 
-<br/>
-<br/>
-
-![Alt image](./static/1.png =250x250) 
-![Alt image](./static/2.png =250x250)
-![Alt image](./static/3.png =250x250)
-![Alt image](./static/4.png =250x250)
-
 
 <br />
 <br />
